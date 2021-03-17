@@ -1,0 +1,23 @@
+
+oRA3DB = {
+	["namespaces"] = {
+		["Promote"] = {
+		},
+		["Tanks"] = {
+		},
+		["ReadyCheck"] = {
+		},
+		["Invite"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Dewber - Westfall"] = "Default",
+		["Ohgnomes - Westfall"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["lastSelectedList"] = 1,
+			["lastSelectedPanel"] = "Checks",
+		},
+	},
+}

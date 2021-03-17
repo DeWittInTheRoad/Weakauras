@@ -1,0 +1,11 @@
+
+AR_MinCost = nil
+AR_Save = {
+	["enabled"] = true,
+	["version"] = "1.13.3",
+	["costThreshold"] = 0,
+	["minCost"] = 0,
+	["skipInv"] = true,
+	["verbose"] = true,
+	["promptEnabled"] = false,
+}

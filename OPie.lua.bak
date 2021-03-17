@@ -1,0 +1,529 @@
+
+OneRing_Config = {
+	["CharProfiles"] = {
+		["Westfall-Dewbs"] = "default",
+		["Westfall-Dewber"] = "default",
+		["Westfall-Ohgnomes"] = "default",
+		["Westfall-Shadewstep"] = "default",
+	},
+	["_GameVersion"] = "1.13.6",
+	["_OPieVersion"] = "Ancient Xe 2a (3.104)",
+	["ProfileStorage"] = {
+		["default"] = {
+			["Bindings"] = {
+				["ParentRing"] = "V",
+				["CommonTrades"] = false,
+				["test"] = "V",
+				["MainRing2"] = "V",
+				["MainRing"] = false,
+			},
+			["IndicationOffsetY"] = -100,
+		},
+	},
+	["PersistentStorage"] = {
+		["AutoQuestWhitelist"] = {
+			[7629] = true,
+			[20464] = true,
+			[8046] = true,
+			[5060] = true,
+			[2944] = true,
+			[14542] = true,
+		},
+		["RingKeeper"] = {
+			["odandDrink"] = {
+				{
+					"item", -- [1]
+					8078, -- [2]
+					["sliceToken"] = "ABuel5YF=lr",
+				}, -- [1]
+				{
+					"item", -- [1]
+					8076, -- [2]
+					["sliceToken"] = "ABuel5YF=le",
+				}, -- [2]
+				["name"] = "Food and Drink",
+				["save"] = true,
+			},
+			["MainRing"] = {
+				{
+					"ring", -- [1]
+					"CommonTrades", -- [2]
+					["sliceToken"] = "ABue4bcgwt3",
+				}, -- [1]
+				{
+					"ring", -- [1]
+					"RaidSymbols", -- [2]
+					["sliceToken"] = "ABue4bcgwts",
+				}, -- [2]
+				{
+					"ring", -- [1]
+					"TrinketSlots", -- [2]
+					["sliceToken"] = "ABue4bcgwta",
+				}, -- [3]
+				{
+					"ring", -- [1]
+					"OPieAutoQuest", -- [2]
+					["sliceToken"] = "ABue4bcgwtp",
+				}, -- [4]
+				{
+					"ring", -- [1]
+					"onsumables", -- [2]
+					["sliceToken"] = "ABue4bYuL9f",
+				}, -- [5]
+				{
+					"ring", -- [1]
+					"eportation", -- [2]
+					["sliceToken"] = "ABuejnWaWsf",
+				}, -- [6]
+				{
+					"ring", -- [1]
+					"Macros", -- [2]
+					["sliceToken"] = "ABuekuM6U0y",
+				}, -- [7]
+				{
+					"item", -- [1]
+					20749, -- [2]
+					["sliceToken"] = "ABuejMsSIY9",
+				}, -- [8]
+				{
+					"item", -- [1]
+					13444, -- [2]
+					["sliceToken"] = "ABuejMsSIYA",
+				}, -- [9]
+				{
+					"item", -- [1]
+					21546, -- [2]
+					["sliceToken"] = "ABuejMsSIYP",
+				}, -- [10]
+				{
+					"item", -- [1]
+					13454, -- [2]
+					["sliceToken"] = "ABuejMsSIYO",
+				}, -- [11]
+				{
+					"item", -- [1]
+					6052, -- [2]
+					["sliceToken"] = "ABuejMsSIYI",
+				}, -- [12]
+				{
+					"item", -- [1]
+					13458, -- [2]
+					["sliceToken"] = "ABuejMsSIY8",
+				}, -- [13]
+				{
+					"item", -- [1]
+					3387, -- [2]
+					["sliceToken"] = "ABuejMsSIYU",
+				}, -- [14]
+				{
+					"item", -- [1]
+					14530, -- [2]
+					["sliceToken"] = "ABuejMsSIYY",
+				}, -- [15]
+				{
+					"item", -- [1]
+					13446, -- [2]
+					["sliceToken"] = "ABuejMsSIYT",
+				}, -- [16]
+				{
+					"item", -- [1]
+					6948, -- [2]
+					["sliceToken"] = "ABuekybH8Gt",
+				}, -- [17]
+				["limit"] = "Dewbs-Westfall",
+				["save"] = true,
+				["hotkey"] = "V",
+				["name"] = "Main Ring",
+			},
+			["eportation"] = {
+				{
+					["sliceToken"] = "ABuejnWaWs3",
+					["id"] = "#showtooltip\n/cast [nomod] {{spell:3561}}; [nomod] {{spell:3567}}; [mod:ctrl] {{spell:10059}}; [mod:ctrl] {{spell:11417}}",
+				}, -- [1]
+				{
+					["sliceToken"] = "ABuejnWaWss",
+					["id"] = "#showtooltip\n/cast [nomod] {{spell:3562}}; [nomod] {{spell:3566}}; [mod:ctrl] {{spell:11416}}; [mod:ctrl] {{spell:11420}}",
+				}, -- [2]
+				{
+					["sliceToken"] = "ABuejnWaWsa",
+					["id"] = "#showtooltip\n/cast [nomod] {{spell:3565}}; [nomod] {{spell:3563}}; [mod:ctrl] {{spell:11419}}; [mod:ctrl] {{spell:11418}}",
+				}, -- [3]
+				["name"] = "Teleportation",
+				["save"] = true,
+				["limit"] = "Dewbs-Westfall",
+			},
+			["ParentRing"] = {
+				{
+					"ring", -- [1]
+					"ockSummons", -- [2]
+					["sliceToken"] = "ABueltjEn=w",
+				}, -- [1]
+				{
+					"item", -- [1]
+					6948, -- [2]
+					["sliceToken"] = "ABueltjEn=2",
+				}, -- [2]
+				{
+					"ring", -- [1]
+					"eportation", -- [2]
+					["sliceToken"] = "ABuelotnhIw",
+				}, -- [3]
+				{
+					"ring", -- [1]
+					"odandDrink", -- [2]
+					["sliceToken"] = "ABuel5YF=l1",
+				}, -- [4]
+				{
+					"ring", -- [1]
+					"Priest", -- [2]
+					["sliceToken"] = "ABuelb7oeeW",
+				}, -- [5]
+				{
+					"ring", -- [1]
+					"Warlock", -- [2]
+					["sliceToken"] = "ABuel5YF=lu",
+				}, -- [6]
+				{
+					"ring", -- [1]
+					"rofessions", -- [2]
+					["sliceToken"] = "ABuelxRBjFd",
+				}, -- [7]
+				{
+					"item", -- [1]
+					8545, -- [2]
+					["sliceToken"] = "ABuelx8tdXw",
+				}, -- [8]
+				{
+					"ring", -- [1]
+					"Mage", -- [2]
+					["sliceToken"] = "ABueln7/UUz",
+				}, -- [9]
+				["name"] = "Parent Ring",
+				["save"] = true,
+			},
+			["Macros"] = {
+				{
+					"macro", -- [1]
+					"Buffs", -- [2]
+					["sliceToken"] = "ABuekuM6U0r",
+				}, -- [1]
+				{
+					"macro", -- [1]
+					"Invite Group", -- [2]
+					["sliceToken"] = "ABuekuM6U0e",
+				}, -- [2]
+				["limit"] = "Dewbs-Westfall",
+				["save"] = true,
+				["name"] = "Macros",
+			},
+			["rofessions"] = {
+				{
+					["sliceToken"] = "ABuelxRBjFs",
+					["id"] = 12180,
+				}, -- [1]
+				{
+					["sliceToken"] = "ABuelxRBjFa",
+					["id"] = 10846,
+				}, -- [2]
+				{
+					["sliceToken"] = "ABuelxRBjFp",
+					["id"] = 18260,
+				}, -- [3]
+				{
+					["id"] = 13920,
+					["sliceToken"] = "ABuelb7oeer",
+				}, -- [4]
+				{
+					["id"] = 13262,
+					["sliceToken"] = "ABuelb7oeee",
+				}, -- [5]
+				{
+					["id"] = 3464,
+					["sliceToken"] = "ABuelm2Z0sw",
+				}, -- [6]
+				["name"] = "Professions",
+				["save"] = true,
+			},
+			["CommonTrades"] = {
+				{
+					["sliceToken"] = "OPCCTt",
+					["id"] = "/cast {{spell:3908/51309}}",
+				}, -- [1]
+				{
+					["id"] = "/cast {{spell:2108/51302}}",
+					["sliceToken"] = "OPCCTl",
+				}, -- [2]
+				{
+					["id"] = "/cast {{spell:2018/51300}}",
+					["sliceToken"] = "OPCCTb",
+				}, -- [3]
+				{
+					["id"] = "/cast [mod] {{spell:13262}}; {{spell:7411/51313}}",
+					["sliceToken"] = "OPCCTe",
+				}, -- [4]
+				{
+					["id"] = "/cast {{spell:2259/51304}}",
+					["sliceToken"] = "OPCCTa",
+				}, -- [5]
+				{
+					["sliceToken"] = "OPCCTc",
+					["id"] = "/cast [mod] {{spell:818}}; {{spell:2550/51296}}",
+				}, -- [6]
+				{
+					["id"] = "/cast {{spell:4036/51306}}",
+					["sliceToken"] = "OPCCTg",
+				}, -- [7]
+				{
+					["id"] = 2656,
+					["sliceToken"] = "OPCCTm",
+				}, -- [8]
+				{
+					["sliceToken"] = "OPCCTf",
+					["id"] = "/cast {{spell:3273}}",
+				}, -- [9]
+				["name"] = "Trade Skills",
+				["save"] = true,
+				["hotkey"] = "BUTTON3",
+			},
+			["Mage"] = {
+				{
+					["sliceToken"] = "ABueln7/UUl",
+					["id"] = 130,
+				}, -- [1]
+				{
+					["sliceToken"] = "ABueln7/UUk",
+					["id"] = 10140,
+				}, -- [2]
+				{
+					["sliceToken"] = "ABueln7/UUj",
+					["id"] = 10145,
+				}, -- [3]
+				{
+					[3] = "lock-rank",
+					["sliceToken"] = "ABueln7/UU4",
+					["id"] = 10139,
+				}, -- [4]
+				["name"] = "Mage",
+				["save"] = true,
+				["limit"] = "MAGE",
+			},
+			["MainRing2"] = {
+				{
+					["id"] = 2842,
+					["sliceToken"] = "ABuejV0p03y",
+				}, -- [1]
+				{
+					["id"] = 4036,
+					["sliceToken"] = "ABuejV0p03t",
+				}, -- [2]
+				{
+					["id"] = 3273,
+					["sliceToken"] = "ABuejV0p031",
+				}, -- [3]
+				{
+					"item", -- [1]
+					6950, -- [2]
+					["sliceToken"] = "ABuekqXqNle",
+				}, -- [4]
+				["save"] = true,
+				["name"] = "Main Ring",
+				["limit"] = "Shadewstep-Westfall",
+			},
+			["OPieFlagStore"] = {
+				["StoreVersion"] = 2,
+			},
+			["Warlock"] = {
+				{
+					["id"] = "#showtooltip\n/cast {{spell:698}}\n/run s=\"Summoning \" f=SendChatMessage z=GetMinimapZoneText() t=UnitName(\"target\") j=strjoin f(j(\"\",s,\"you to \",z),\"WHISPER\",nil,t) f(j(\"\",s,t,\"\"),(UnitInRaid(\"player\") and \"RAID\" or \"PARTY\"))\n",
+					["sliceToken"] = "ABuel5YF=ly",
+				}, -- [1]
+				{
+					["id"] = 20755,
+					["sliceToken"] = "ABuel5YF=lo",
+				}, -- [2]
+				{
+					["id"] = 11729,
+					["sliceToken"] = "ABuel5YF=l2",
+				}, -- [3]
+				{
+					["id"] = 5697,
+					["sliceToken"] = "ABuelmTRetw",
+				}, -- [4]
+				["save"] = true,
+				["limit"] = "WARLOCK",
+				["name"] = "Warlock",
+			},
+			["Portals"] = {
+				{
+					["sliceToken"] = "ABue4fg4Eyb",
+					["id"] = 11419,
+				}, -- [1]
+				{
+					["sliceToken"] = "ABue4fg4Eyv",
+					["id"] = 11416,
+				}, -- [2]
+				{
+					["sliceToken"] = "ABue4fg4Eyc",
+					["id"] = 10059,
+				}, -- [3]
+				{
+					["sliceToken"] = "ABue4fg4Eyx",
+					["id"] = 3565,
+				}, -- [4]
+				{
+					["sliceToken"] = "ABue4fg4Ey5",
+					["id"] = 3562,
+				}, -- [5]
+				{
+					["sliceToken"] = "ABue4fg4Eyz",
+					["id"] = 3561,
+				}, -- [6]
+				["limit"] = "Dewbs-Westfall",
+				["save"] = true,
+				["name"] = "Portals",
+			},
+			["onsumables"] = {
+				{
+					"item", -- [1]
+					13454, -- [2]
+					["sliceToken"] = "ABue4bYuL9d",
+				}, -- [1]
+				{
+					"item", -- [1]
+					17708, -- [2]
+					["sliceToken"] = "ABue4bYuL93",
+				}, -- [2]
+				{
+					"item", -- [1]
+					9030, -- [2]
+					["sliceToken"] = "ABue4bYuL9s",
+				}, -- [3]
+				{
+					"item", -- [1]
+					19183, -- [2]
+					["sliceToken"] = "ABue4bYuL9a",
+				}, -- [4]
+				{
+					"item", -- [1]
+					13457, -- [2]
+					["sliceToken"] = "ABue4bYuL9p",
+				}, -- [5]
+				["name"] = "Consumables",
+				["save"] = true,
+				["limit"] = "Dewbs-Westfall",
+			},
+			["test"] = {
+				{
+					["id"] = 10846,
+					["sliceToken"] = "ABue4dSYYDo",
+				}, -- [1]
+				{
+					["id"] = 12656,
+					["sliceToken"] = "ABue4dSYYD2",
+				}, -- [2]
+				{
+					["id"] = 2656,
+					["sliceToken"] = "ABue4dSYYDi",
+				}, -- [3]
+				{
+					"item", -- [1]
+					6948, -- [2]
+					["sliceToken"] = "ABue4dSYYDu",
+				}, -- [4]
+				{
+					"ring", -- [1]
+					"RaidSymbols", -- [2]
+					["sliceToken"] = "ABue4vChXCr",
+				}, -- [5]
+				{
+					"ring", -- [1]
+					"CommonTrades", -- [2]
+					["sliceToken"] = "ABue4vChXCe",
+				}, -- [6]
+				{
+					"ring", -- [1]
+					"onsumables2", -- [2]
+					["sliceToken"] = "ABue4bI5PKe",
+				}, -- [7]
+				["name"] = "Main Ring",
+				["save"] = true,
+				["hotkey"] = "BUTTON3",
+				["limit"] = "Ohgnomes-Westfall",
+			},
+			["ockSummons"] = {
+				{
+					["id"] = 688,
+					["sliceToken"] = "ABueltjEn=u",
+				}, -- [1]
+				{
+					["id"] = 712,
+					["sliceToken"] = "ABueltjEn=y",
+				}, -- [2]
+				{
+					["id"] = 697,
+					["sliceToken"] = "ABueltjEn=t",
+				}, -- [3]
+				["save"] = true,
+				["name"] = "Warlock Summons",
+				["limit"] = "WARLOCK",
+			},
+			["onsumables2"] = {
+				{
+					"item", -- [1]
+					12404, -- [2]
+					["sliceToken"] = "ABue4bI5PKw",
+				}, -- [1]
+				["save"] = true,
+				["name"] = "Consumables",
+				["limit"] = "Ohgnomes-Westfall",
+			},
+			["Priest"] = {
+				{
+					["id"] = 10958,
+					["sliceToken"] = "ABuelb7oeem",
+				}, -- [1]
+				{
+					["id"] = 27841,
+					["sliceToken"] = "ABuelb7oeen",
+				}, -- [2]
+				{
+					["id"] = 10952,
+					["sliceToken"] = "ABuelb7oee6",
+				}, -- [3]
+				{
+					["id"] = 21564,
+					["sliceToken"] = "ABuelb7oeeb",
+				}, -- [4]
+				{
+					["id"] = 27681,
+					["sliceToken"] = "ABuelb7oeev",
+				}, -- [5]
+				{
+					["id"] = 10909,
+					["sliceToken"] = "ABuelb7oeec",
+				}, -- [6]
+				{
+					["id"] = 10953,
+					["sliceToken"] = "ABuelb7oeex",
+				}, -- [7]
+				{
+					["id"] = 10912,
+					["sliceToken"] = "ABuel6IXEby",
+				}, -- [8]
+				{
+					["id"] = 20770,
+					["sliceToken"] = "ABuel6IXEbt",
+				}, -- [9]
+				{
+					["id"] = 1706,
+					["sliceToken"] = "ABuel6IXEb1",
+				}, -- [10]
+				["save"] = true,
+				["limit"] = "PRIEST",
+				["name"] = "Priest",
+			},
+		},
+	},
+	["_GameLocale"] = "enUS",
+}
+OPie_SavedData = nil

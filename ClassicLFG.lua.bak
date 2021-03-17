@@ -1,0 +1,92 @@
+
+ClassicLFG_DB = {
+	["profileKeys"] = {
+		["Dewbs - Westfall"] = "Dewbs - Westfall",
+		["Goldhoard - Mankrik"] = "Goldhoard - Mankrik",
+		["Dewber - Mankrik"] = "Dewber - Mankrik",
+		["Dewbubble - Westfall"] = "Dewbubble - Westfall",
+		["Hoard - Westfall"] = "Hoard - Westfall",
+		["Dewitt - Westfall"] = "Dewitt - Westfall",
+		["Dewclaws - Westfall"] = "Dewclaws - Westfall",
+		["Aural - Westfall"] = "Aural - Westfall",
+		["Shadewstep - Westfall"] = "Shadewstep - Westfall",
+		["Dewber - Westfall"] = "Dewber - Westfall",
+		["Dewittbank - Mankrik"] = "Dewittbank - Mankrik",
+		["Islandclick - Westfall"] = "Islandclick - Westfall",
+		["Dewbs - Herod"] = "Dewbs - Herod",
+		["Dewb - Mankrik"] = "Dewb - Mankrik",
+		["Ohgnomes - Westfall"] = "Ohgnomes - Westfall",
+		["Dewb - Westfall"] = "Dewb - Westfall",
+		["Holydewbs - Westfall"] = "Holydewbs - Westfall",
+	},
+	["profiles"] = {
+		["Dewbs - Westfall"] = {
+			["minimap"] = {
+				["minimapPos"] = 278.708194078125,
+				["hide"] = true,
+			},
+			["BroadcastDungeonGroupChannel"] = 1,
+		},
+		["Goldhoard - Mankrik"] = {
+			["BroadcastDungeonGroupChannel"] = 1,
+		},
+		["Dewber - Mankrik"] = {
+			["minimap"] = {
+				["minimapPos"] = 208.375482109426,
+			},
+			["BroadcastDungeonGroupChannel"] = 1,
+		},
+		["Dewbubble - Westfall"] = {
+		},
+		["Hoard - Westfall"] = {
+			["minimap"] = {
+				["minimapPos"] = 176.268624803679,
+			},
+			["BroadcastDungeonGroupChannel"] = 0,
+		},
+		["Dewitt - Westfall"] = {
+			["BroadcastDungeonGroupChannel"] = 1,
+			["minimap"] = {
+				["minimapPos"] = 278.308951156437,
+			},
+		},
+		["Dewclaws - Westfall"] = {
+		},
+		["Aural - Westfall"] = {
+		},
+		["Shadewstep - Westfall"] = {
+			["BroadcastDungeonGroupChannel"] = 1,
+			["minimap"] = {
+				["minimapPos"] = 231.538042172833,
+			},
+		},
+		["Dewber - Westfall"] = {
+			["BroadcastDungeonGroupChannel"] = 1,
+		},
+		["Dewittbank - Mankrik"] = {
+		},
+		["Islandclick - Westfall"] = {
+			["BroadcastDungeonGroupChannel"] = 1,
+		},
+		["Dewbs - Herod"] = {
+		},
+		["Dewb - Mankrik"] = {
+			["minimap"] = {
+				["minimapPos"] = 184.184951167069,
+			},
+			["BroadcastDungeonGroupChannel"] = 0,
+		},
+		["Ohgnomes - Westfall"] = {
+			["ShareTalents"] = false,
+			["minimap"] = {
+				["minimapPos"] = 276.999610855697,
+			},
+			["BroadcastDungeonGroupChannel"] = 1,
+		},
+		["Dewb - Westfall"] = {
+			["BroadcastDungeonGroupChannel"] = 1,
+		},
+		["Holydewbs - Westfall"] = {
+		},
+	},
+}

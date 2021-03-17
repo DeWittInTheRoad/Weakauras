@@ -1,0 +1,224 @@
+
+WoWProData = {
+	["char"] = {
+		["Dewbs - Westfall"] = {
+			["currentguide"] = "ElidionAlli_III",
+			["lastlevelingguide"] = "ElidionAlli_III",
+		},
+		["Goldhoard - Mankrik"] = {
+			["currentguide"] = "Classic-01-12-Manovan-TirisfalGlades",
+		},
+		["Dewber - Mankrik"] = {
+			["currentguide"] = "Classic-12-14-SilverKnight-SilverpineForest",
+		},
+		["Dewbubble - Westfall"] = {
+			["currentguide"] = "ClassicElwynn0112",
+		},
+		["Hoard - Westfall"] = {
+			["currentguide"] = "ClassicElwynn0112",
+		},
+		["Dewitt - Westfall"] = {
+			["currentguide"] = "JamEas5960",
+			["lastlevelingguide"] = "JamEas5960",
+		},
+		["Dewclaws - Westfall"] = {
+			["currentguide"] = "ClassicTeldrassil0112",
+		},
+		["Aural - Westfall"] = {
+			["currentguide"] = "Classic-01-12-Manovan-TirisfalGlades",
+		},
+		["Shadewstep - Westfall"] = {
+			["currentguide"] = "ElidionAlli_I",
+		},
+		["Dewber - Westfall"] = {
+			["currentguide"] = "ElidionAlli_II",
+		},
+		["Dewittbank - Mankrik"] = {
+			["currentguide"] = "Classic-01-12-Manovan-TirisfalGlades",
+		},
+		["Islandclick - Westfall"] = {
+			["currentguide"] = "ClassicElwynn0112",
+		},
+		["Dewbear - Westfall"] = {
+			["currentguide"] = "ClassicTeldrassil0112",
+		},
+		["Holydewbs - Westfall"] = {
+			["currentguide"] = "ClassicElwynn0112",
+		},
+		["Dewb - Westfall"] = {
+			["currentguide"] = "Classic-01-12-Manovan-TirisfalGlades",
+		},
+		["Dewb - Mankrik"] = {
+			["currentguide"] = "Jame-HordeGuide-1",
+		},
+		["Ohgnomes - Westfall"] = {
+			["currentguide"] = "ElidionAlli_IV",
+			["lastlevelingguide"] = "ElidionAlli_IV",
+		},
+		["Dewbs - Herod"] = {
+			["currentguide"] = "Classic-01-12-Manovan-TirisfalGlades",
+		},
+		["Dewfrost - Pagle"] = {
+			["currentguide"] = "Classic-01-12-Zerinj-Durotar",
+		},
+	},
+	["profileKeys"] = {
+		["Dewbs - Westfall"] = "Default",
+		["Goldhoard - Mankrik"] = "Default",
+		["Dewber - Mankrik"] = "Default",
+		["Dewbubble - Westfall"] = "Default",
+		["Hoard - Westfall"] = "Default",
+		["Dewitt - Westfall"] = "Default",
+		["Dewclaws - Westfall"] = "Default",
+		["Aural - Westfall"] = "Default",
+		["Shadewstep - Westfall"] = "Default",
+		["Dewber - Westfall"] = "Default",
+		["Dewittbank - Mankrik"] = "Default",
+		["Islandclick - Westfall"] = "Default",
+		["Dewbear - Westfall"] = "Default",
+		["Holydewbs - Westfall"] = "Default",
+		["Dewb - Westfall"] = "Default",
+		["Dewb - Mankrik"] = "Default",
+		["Ohgnomes - Westfall"] = "Default",
+		["Dewbs - Herod"] = "Default",
+		["Dewfrost - Pagle"] = "Default",
+	},
+	["global"] = {
+		["Achievements"] = {
+		},
+		["QuestEngineDelay"] = 0.25,
+		["Log"] = {
+			"120517 |c7fffff7fWoWPro|r: Log Reset from Addon Load", -- [1]
+			"120523 |c7fffff7fWoWPro|r: |cff33ff33Enabled|r: Version 1.13.6-E0", -- [2]
+			"120525 |cffff7d0aWoWPro|r: ILE:PLAYER_ENTERING_WORLD(false, true) InitLockdown=false", -- [3]
+			"120525 |c7f0000ffWoWPro|r: Setting Timer PEW", -- [4]
+			"120525 |cffff7d0aWoWPro|r: Handled: QUEST_LOG_UPDATE() InitLockdown=true", -- [5]
+			"120525 |cffff7d0aWoWPro|r: Handled: SPELLS_CHANGED() InitLockdown=true", -- [6]
+			"120526 |cffff7d0aWoWPro|r: Handled: SKILL_LINES_CHANGED() InitLockdown=true", -- [7]
+			"120526 |cffff7d0aWoWPro|r: Handled: ADDON_LOADED(\"Blizzard_AuctionUI\") InitLockdown=false", -- [8]
+			"120526 |cffff7d0aWoWPro|r: Handled: QUEST_LOG_UPDATE() InitLockdown=false", -- [9]
+			"120526 |c7f0000ffWoWPro|r: WoWPro.LoadGuideReal(): starting guide cleanup:  ClassicTeldrassil0112", -- [10]
+			"120526 |cffff7d0aWoWPro|r: Handled: QUEST_LOG_UPDATE(\"-punted-\") InitLockdown=false", -- [11]
+			"120526 |cffff7d0aWoWPro|r: Handled: ADDON_LOADED(\"Blizzard_TradeSkillUI\") InitLockdown=false", -- [12]
+			"120526 |c7f0000ffWoWPro|r: PopulateQuestLog(): WoWPro.inhibit_oldQuests_update is false", -- [13]
+			"120526 |c7f0000ffWoWPro|r: Quest Log populated. 0 quests found.", -- [14]
+			"120526 |c7f0000ffWoWPro|r: Empty old Quest log. Time to fill it up!", -- [15]
+			"120526 |c7f0000ffWoWPro|r: WoWPro.CompleteStep(1,L[Level 1],'Player level exceeds step limit')", -- [16]
+			"120526 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 1.13.6-E0.", -- [17]
+			"120526 |c7f0000ffWoWPro|r: UpdateGuideReal(2): ActiveStep=A The Balance of Nature¦QID¦456¦M¦58.69,44.27¦N¦From Conservator Ilthalaine in front of you.¦", -- [18]
+			"120526 |c7f0000ffWoWPro|r: RowUpdate(1,2): A The Balance of Nature¦QID¦456¦M¦58.69,44.27¦N¦From Conservator Ilthalaine in front of you.¦", -- [19]
+			"120526 |c7f0000ffWoWPro|r: RowUpdate(2,8): A The Woodland Protector¦QID¦458¦M¦59.92,42.47¦N¦From Melithar Staghelm.¦", -- [20]
+			"120526 |c7f0000ffWoWPro|r: RowUpdate(3,48): A Dolanaar Delivery¦QID¦2159¦M¦61.16,47.64¦N¦From Porthannius, on the road to Dolanaar¦", -- [21]
+			"120526 |c7f0000ffWoWPro|r: RowUpdate(4,50): A Zenn's Bidding¦QID¦488¦M¦60.43,56.25¦N¦From Zenn Foulhoof. If he is a frog, wait up to 1 minute (another player has just done a later stage of the quest)¦", -- [22]
+			"120526 |c7f0000ffWoWPro|r: RowUpdate(5,52): A A Troubling Breeze¦QID¦475¦M¦55.96,57.28¦N¦From Athridas Bearmantle in Dolanaar.¦", -- [23]
+			"120526 |c7f0000ffWoWPro|r: RowUpdate(6,54): A The Emerald Dreamcatcher¦QID¦2438¦M¦55.58,56.95¦N¦From Tallonkai Swiftroot, at the very top of the building¦", -- [24]
+			"120526 |c7f0000ffWoWPro|r: RowUpdate(7,55): A Twisted Hatred¦QID¦932¦M¦55.58,56.95¦N¦From Tallonkai Swiftroot.¦", -- [25]
+			"120526 |c7f0000ffWoWPro|r: RowUpdate(8,58): h Dolanaar¦QID¦928¦N¦Set your Hearthstone to Dolanaar.¦", -- [26]
+			"120526 |c7f0000ffWoWPro|r: RowUpdate(9,59): A A Troubling Breeze¦QID¦475¦M¦55.96,57.28¦N¦From Athridas Bearmantle.¦", -- [27]
+			"120526 |c7f0000ffWoWPro|r: RowUpdate(10,60): A The Emerald Dreamcatcher¦QID¦2438¦M¦55.58,56.95¦N¦At the top of the building from Tallonkai Swiftroot.¦", -- [28]
+			"120526 |c7f0000ffWoWPro|r: RowUpdate(11,61): A Twisted Hatred¦QID¦932¦M¦55.58,56.95¦N¦From Tallonkai Swiftroot.¦", -- [29]
+			"120526 |c7f0000ffWoWPro|r: RowUpdate(12,62): A Recipe of the Kaldorei¦QID¦4161¦M¦57.11,61.28¦N¦Speak to Zarrin and learn cooking - this will unlock the quest.¦", -- [30]
+			"120526 |c7f0000ffWoWPro|r: RowUpdate(13,65): N Professions¦QID¦475¦M¦57.47,60.60¦S¦N¦This is a good time to consider your professions. If this is your first character you may want two gathering professions to make more money. The Herbalist and Alchemist Trainers are on the southern side of town. If you want Skinning, Leather Working or Mining, I highly recommend that you wait until after the next circuit (or you will have one hell of a detour to take). Others are in Darnassus.¦", -- [31]
+			"120526 |c7f0000ffWoWPro|r: RowUpdate(14,77): K Ferocitas the Dream Eater¦QID¦2459¦M¦69.35,53.30¦L¦8049 1¦QO¦2¦T¦Ferocitas the Dream Eater¦N¦Kill and loot Ferocitas the Dream Eater for the Gnarlpine Necklace¦", -- [32]
+			"120526 |c7f0000ffWoWPro|r: RowUpdate(15,84): A Denalan's Earth¦QID¦997¦M¦56.09,57.72¦N¦From Syral Bladeleaf.¦", -- [33]
+			"120526 |c7f0000ffWoWPro|r: WoWPro:MapPoint1(2,58.69,44.27@Teldrassil=1438)", -- [34]
+			"120526 |c7f0000ffWoWPro|r: WoWPro:MapPoint:TomTom(58.69,44.27@Teldrassil/1438)", -- [35]
+			"120526 |c7f0000ffWoWPro|r: ZONE_CHANGED_NEW_AREA_GUIDE_LOAD: qidx=2, guidetype=Leveling, currentguide=ClassicTeldrassil0112", -- [36]
+			"120526 |c7f0000ffWoWPro|r: 2/qidx: A The Balance of Nature¦QID¦456¦M¦58.69,44.27¦N¦From Conservator Ilthalaine in front of you.¦", -- [37]
+			"120526 |c7f0000ffWoWPro|r: 3/qidx+1: C The Balance of Nature¦QID¦456¦N¦Kill Young Nightsabers and Young Thistle Boars.¦", -- [38]
+			"120526 |c7f0000ffWoWPro|r: nil/ScenarioFirstStep: <nil>", -- [39]
+			"120526 |c7f0000ffWoWPro|r: ZONE_CHANGED_NEW_AREA_GUIDE_LOAD: WoWPro.zone[qidx]=Teldrassil, WoWPro:IsInstanceZone()=false, WoWPro.sobjective=nil, IsInInstance()=false", -- [40]
+			"120526 |c7f0000ffWoWPro|r: MapPoint: LastMapPoint=2 [58.69,44.27@1438] in Teldrassil. No update needed.", -- [41]
+			"120526 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro:LoadGuideSteps()", -- [42]
+			"120527 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 1.13.6-E0.", -- [43]
+			"120527 |c7f0000ffWoWPro|r: UpdateGuideReal(2): ActiveStep=A The Balance of Nature¦QID¦456¦M¦58.69,44.27¦N¦From Conservator Ilthalaine in front of you.¦", -- [44]
+			"120527 |c7f0000ffWoWPro|r: RowUpdate(1,2): A The Balance of Nature¦QID¦456¦M¦58.69,44.27¦N¦From Conservator Ilthalaine in front of you.¦", -- [45]
+			"120527 |c7f0000ffWoWPro|r: RowUpdate(2,8): A The Woodland Protector¦QID¦458¦M¦59.92,42.47¦N¦From Melithar Staghelm.¦", -- [46]
+			"120527 |c7f0000ffWoWPro|r: RowUpdate(3,48): A Dolanaar Delivery¦QID¦2159¦M¦61.16,47.64¦N¦From Porthannius, on the road to Dolanaar¦", -- [47]
+			"120527 |c7f0000ffWoWPro|r: RowUpdate(4,50): A Zenn's Bidding¦QID¦488¦M¦60.43,56.25¦N¦From Zenn Foulhoof. If he is a frog, wait up to 1 minute (another player has just done a later stage of the quest)¦", -- [48]
+			"120527 |c7f0000ffWoWPro|r: RowUpdate(5,52): A A Troubling Breeze¦QID¦475¦M¦55.96,57.28¦N¦From Athridas Bearmantle in Dolanaar.¦", -- [49]
+			"120527 |c7f0000ffWoWPro|r: RowUpdate(6,54): A The Emerald Dreamcatcher¦QID¦2438¦M¦55.58,56.95¦N¦From Tallonkai Swiftroot, at the very top of the building¦", -- [50]
+			"120527 |c7f0000ffWoWPro|r: RowUpdate(7,55): A Twisted Hatred¦QID¦932¦M¦55.58,56.95¦N¦From Tallonkai Swiftroot.¦", -- [51]
+			"120527 |c7f0000ffWoWPro|r: RowUpdate(8,58): h Dolanaar¦QID¦928¦N¦Set your Hearthstone to Dolanaar.¦", -- [52]
+			"120527 |c7f0000ffWoWPro|r: RowUpdate(9,59): A A Troubling Breeze¦QID¦475¦M¦55.96,57.28¦N¦From Athridas Bearmantle.¦", -- [53]
+			"120527 |c7f0000ffWoWPro|r: RowUpdate(10,60): A The Emerald Dreamcatcher¦QID¦2438¦M¦55.58,56.95¦N¦At the top of the building from Tallonkai Swiftroot.¦", -- [54]
+			"120527 |c7f0000ffWoWPro|r: RowUpdate(11,61): A Twisted Hatred¦QID¦932¦M¦55.58,56.95¦N¦From Tallonkai Swiftroot.¦", -- [55]
+			"120527 |c7f0000ffWoWPro|r: RowUpdate(12,62): A Recipe of the Kaldorei¦QID¦4161¦M¦57.11,61.28¦N¦Speak to Zarrin and learn cooking - this will unlock the quest.¦", -- [56]
+			"120527 |c7f0000ffWoWPro|r: RowUpdate(13,65): N Professions¦QID¦475¦M¦57.47,60.60¦S¦N¦This is a good time to consider your professions. If this is your first character you may want two gathering professions to make more money. The Herbalist and Alchemist Trainers are on the southern side of town. If you want Skinning, Leather Working or Mining, I highly recommend that you wait until after the next circuit (or you will have one hell of a detour to take). Others are in Darnassus.¦", -- [57]
+			"120527 |c7f0000ffWoWPro|r: RowUpdate(14,77): K Ferocitas the Dream Eater¦QID¦2459¦M¦69.35,53.30¦L¦8049 1¦QO¦2¦T¦Ferocitas the Dream Eater¦N¦Kill and loot Ferocitas the Dream Eater for the Gnarlpine Necklace¦", -- [58]
+			"120527 |c7f0000ffWoWPro|r: RowUpdate(15,84): A Denalan's Earth¦QID¦997¦M¦56.09,57.72¦N¦From Syral Bladeleaf.¦", -- [59]
+			"120527 |c7f0000ffWoWPro|r: MapPoint: LastMapPoint=2 [58.69,44.27@1438] in Teldrassil. No update needed.", -- [60]
+			"120557 |cffff7d0aWoWPro|r: ILE:PLAYER_LEAVING_WORLD() InitLockdown=false", -- [61]
+			"120557 |c7f0000ffWoWPro|r: Locking Down PLW", -- [62]
+		},
+		["NpcFauxQuests"] = {
+		},
+		["RecklessCombat"] = true,
+	},
+	["profiles"] = {
+		["Default"] = {
+			["minimap"] = {
+				["minimapPos"] = 20.5437675944443,
+			},
+			["showcoords"] = true,
+			["Selector"] = {
+				["DoLeveling"] = true,
+				["QuestHard"] = 0,
+			},
+		},
+		["Eli-Theme"] = {
+			["bgcolor"] = {
+				0.0156862745098039, -- [1]
+				0.0156862745098039, -- [2]
+				0.0156862745098039, -- [3]
+				0.820512652397156, -- [4]
+			},
+			["pad"] = 14,
+			["space"] = 6,
+			["titlecolor"] = {
+				0.501960784313726, -- [1]
+				0.501960784313726, -- [2]
+				0.501960784313726, -- [3]
+				0, -- [4]
+			},
+			["Selector"] = {
+				["QuestHard"] = 0,
+			},
+			["titletextsize"] = 16,
+			["hminresize"] = 340,
+			["stickytitletextcolor"] = {
+				0.384313725490196, -- [1]
+				0.415686274509804, -- [2]
+			},
+			["bordertexture"] = "Interface\\AddOns\\WoWPro\\Textures\\Eli-Edge.tga",
+			["stickytitletextsize"] = 14,
+			["stepfont"] = "Fonts\\MORPHEUS_CYR.TTF",
+			["stickycolor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.162651002407074, -- [4]
+			},
+			["tracktextcolor"] = {
+				0.988235294117647, -- [1]
+				[3] = 0.466666666666667,
+			},
+			["titletextcolor"] = {
+				nil, -- [1]
+				0.407843137254902, -- [2]
+				0, -- [3]
+			},
+			["steptextcolor"] = {
+				nil, -- [1]
+				0.83921568627451, -- [2]
+				0, -- [3]
+			},
+			["notetextcolor"] = {
+				0.866666666666667, -- [1]
+				0.866666666666667, -- [2]
+				0.854901960784314, -- [3]
+			},
+			["steptextsize"] = 16,
+		},
+	},
+}

@@ -1,0 +1,4 @@
+
+ClassicAuraDurationsDB = {
+	["hookTargetFrame"] = false,
+}
